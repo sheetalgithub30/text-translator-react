@@ -62,6 +62,20 @@ function App() {
     };
 
 
+    function source(){
+      let utterance = new SpeechSynthesisUtterance(`${inputValue}`);
+          utterance.lang = {sourceLanguage};
+          speechSynthesis.speak(utterance);
+    }
+
+    function target(){
+      let utterance = new SpeechSynthesisUtterance(`${outputValue}`);
+      utterance.lang = {targetLanguage};
+      speechSynthesis.speak(utterance);
+    }
+
+
+
 
   return (
     <div id="container">
@@ -90,6 +104,7 @@ function App() {
         <textarea placeholder="Text to be translated" onChange={(e) => setInputValue(e.currentTarget.value)}>
           {inputValue}
         </textarea>
+        <button className="speaker" onClick={source}>🔊</button>
       </div>
 
       <div id="right">
@@ -112,6 +127,7 @@ function App() {
      
         <p>{outputValue}</p>
       </div>
+      <button className="speaker" onClick={target}>🔊</button>
        <div id="button">
        <button onClick={getTranslate}>Translate</button>
 

@@ -13,7 +13,7 @@
 }
 #container{
   box-shadow: 2px 2px 5px black;
-  padding: 1.5rem;
+  padding: 1.3rem;
   border-radius: 20px;
   background-color: white;
 }
@@ -23,14 +23,14 @@
   align-items: center;
 }
 #navbar h1{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #navbar img{
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
 #left{
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 textarea{
@@ -40,7 +40,7 @@ textarea{
   padding: 1rem;
 }
 #right{
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 #right p{
@@ -56,13 +56,18 @@ textarea{
   margin: 1rem 0rem;
 }
 .select select{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 #button{
   text-align: center; 
 }
+
+.speaker{
+  background-color: white;
+  padding: 0;
+}
 button{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   background-color: rgb(69, 69, 248);
