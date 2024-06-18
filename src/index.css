@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container{
+  box-shadow: 2px 2px 5px black;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+#navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar h1{
+  font-size: 2.5rem;
+}
+#navbar img{
+  width: 5rem;
+  height: 5rem;
+}
+#left{
+  margin: 1rem 0rem;
+}
+
+textarea{
+  font-size: 1.5rem;
+  width: 100%;
+  height: 10rem;
+  padding: 1rem;
+}
+#right{
+  margin: 1rem 0rem;
+}
+
+#right p{
+  border: 1px solid black;
+  width: 100%;
+  height: 10rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.select{
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.select select{
+  font-size: 1.4rem;
+}
