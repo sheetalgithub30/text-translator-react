@@ -62,7 +62,6 @@ function App() {
     };
 
 
-    // getTranslate();
 
   return (
     <div id="container">
@@ -113,8 +112,10 @@ function App() {
      
         <p>{outputValue}</p>
       </div>
+       <div id="button">
+       <button onClick={getTranslate}>Translate</button>
 
-      <button onClick={getTranslate}>Translate</button>
+       </div>
     </div>
   );
 }

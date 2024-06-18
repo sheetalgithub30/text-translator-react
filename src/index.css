@@ -9,11 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(234, 230, 230);
 }
 #container{
   box-shadow: 2px 2px 5px black;
   padding: 1.5rem;
   border-radius: 20px;
+  background-color: white;
 }
 #navbar{
   display: flex;
@@ -55,4 +57,15 @@ textarea{
 }
 .select select{
   font-size: 1.4rem;
+}
+#button{
+  text-align: center; 
+}
+button{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: rgb(69, 69, 248);
+  color: white;
+  border: none;
 }
